@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+div{
+    float: left;
+    background-color: orange;
+    margin-top:2.5%;
+    margin-left: 2.5%;
+    border-radius: 20px;
+    width: 30vw;
+    height: 30vw;
+}
+    
