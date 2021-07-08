@@ -1,0 +1,90 @@
+body{
+    background-color: #dddada;
+    min-width: 370px;
+    margin: 0;
+}
+
+.box{
+     position: fixed;
+     top:0;
+     height: 60px;
+     width: 100%;
+     background-color:rgb(36, 116, 153);
+     color: white; 
+     text-align: center;
+     }
+     p{
+         margin: 0;
+     }
+.one {
+         position: absolute;
+         line-height: 60px;
+         left: 15px;
+     }
+.two {
+        line-height: 60px;
+     }
+
+.three{
+         position: absolute;
+         line-height: 60px;
+         top: 0;
+         right: 15px;  
+         }
+
+.box1{
+     height:60px ;
+     width: 100%;
+     margin-top:70px ;
+     background-color: white;
+     display:inline-flex;
+}
+.apple{
+       width: 100%;
+}
+.box2{
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    display:inline-flex;  
+}
+
+input{
+    border: 0;
+    outline: none;
+    vertical-align:middle;
+    padding-left: 15px;
+}
+
+.tu1,.tu2{
+    padding-right: 15px;
+    margin: 15px;
+    border-right: 1px solid  #dddada;
+
+}
+
+.box3{
+    height: 60px;
+    margin-top: 10px;
+    background-color:rgb(36, 116, 153);
+}
+
+button{
+    background-color:transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 20px;
+    text-indent: 20px;
+    line-height: 60px;
+    display:block;
+    margin:0 auto;
+}
+.mima{
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    color: rgb(36, 116, 153);
+
+}
