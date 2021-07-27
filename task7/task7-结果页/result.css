@@ -1,0 +1,175 @@
+body {
+    min-width: 370px;
+    line-height: 21px;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    background-color: rgb(41, 189, 224);
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    z-index: 100;
+
+}
+
+.image_1 {
+    margin-left: 10px;
+}
+
+.image_2 {
+    margin-right: 10px;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    position: absolute;
+    top: 70px;
+}
+
+.yellow {
+    position: absolute;
+    top: 85px;
+}
+
+.word{
+    background-color: rgb(41, 189, 224);
+}
+p {
+    margin: 0;
+}
+
+.word_1 {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 140px;
+}
+
+
+.word_2 {
+    font-size: 17px;
+    color: rgb(255, 200, 101);
+    font-weight: 600;
+    padding-top: 183px;
+    margin-left: 39px;
+    margin-right: 40px;
+    display: block;
+    text-align: center;
+
+}
+
+
+.word-both {
+    color: white;
+    font-size: 13px;
+    margin-left: 38px;
+
+}
+
+.word_3 {
+    margin-top: 31px;
+}
+
+
+.one {
+    display: inline-block;
+    margin-right: 9px;
+
+}
+
+.two {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.word_5{
+   padding-bottom: 12px;
+}
+
+.both {
+    background-color: white;
+    height: 87px;
+    width: 100%;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-1 {
+    font-size: 15px;
+    margin-left: 53px;
+    color: rgb(81, 81, 81);
+    margin-top: 7px;
+}
+
+.first-2 {
+    font-size: 10px;
+    color: rgb(199, 199, 199);
+    margin-right: 108px;
+    margin-top: 7px;
+}
+
+.first-3 {
+    font-size: 13px;
+    color: rgb(166, 166, 166);
+    margin-left: 54px;
+    margin-top: 9px;
+}
+
+.white {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(41, 189, 224, 0.5);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foot-one {
+    background-color: rgb(246, 111, 111);
+    border: rgb(246, 111, 111);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.foot-two {
+    background-color: rgb(251, 180, 53);
+    border: rgb(251, 180, 53);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.bottom{
+ 
+    text-decoration:none;
+}

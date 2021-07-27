@@ -1,0 +1,183 @@
+body {
+    min-width: 370x;
+    margin: 0;
+    background-color: rgb(41, 189, 224);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 189, 224);
+    z-index: 10;
+
+}
+
+p {
+    margin: 0;
+}
+
+.vota {
+    font-size: 17px;
+    color: white;
+    margin-top: 14px;
+
+}
+
+span {
+    background-image: url(../task7-投票页/image.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-one {
+    background-position: -15px -74px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.icon-two {
+    background-position: -15px -12px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.center {
+    margin-top: 44px;
+    height: 41px;
+    width: 100%;
+    line-height: 41px;
+    text-align: left;
+    background-color: rgb(185, 235, 245);
+}
+
+.word-one {
+    font-size: 13px;
+    color: rgb(70, 70, 70);
+    margin-left: 23px;
+
+}
+
+.triangle-one {
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: rgb(185, 235, 245);
+    margin-left: 24px;
+}
+
+
+button {
+    background-color: transparent;
+    border: transparent;
+    float: right;
+    margin-top: -50px;
+    margin-right: 9px
+}
+
+.voice {
+    position: absolute;
+    top: 84px;
+    right: -43px;
+    width: 147px;
+    transform: rotate(90deg);
+    opacity: 0;
+
+
+}
+
+.word-two {
+    float: left;
+    font-size: 12px;
+    color: white;
+    margin-left: 25px;
+    margin-top: -9px;
+
+}
+
+.father {
+    margin-top: 48px;
+    text-align: center;
+
+}
+
+.square {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.both {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(245, 201, 123);
+    border: 3px solid white;
+    text-align: center;
+
+}
+
+.word-three {
+    font-size: 15px;
+    color: rgb(86, 86, 86);
+    margin: 17px 0;
+}
+
+.word-four {
+    background-color: rgb(130, 180, 155);
+    font-size: 11px;
+    color: white;
+}
+
+.picture-father {
+    height: 40px;
+
+
+}
+
+.picture {
+    padding-top: 11px;
+    margin-left: 1px;
+    display: none;
+
+}
+
+.square:hover .picture {
+    display: block;
+}
+
+.white {
+    height: 150px;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 102px;
+    width: 100%;   
+    text-align: center;
+    background-color:  rgb(41, 189, 224);
+    border-top: 1px solid white;
+}
+
+.bottom{
+    height: 44px;
+    line-height: 44px;
+    background-color:  rgb(251, 180, 53);
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.base{
+    text-decoration: none;
+}
