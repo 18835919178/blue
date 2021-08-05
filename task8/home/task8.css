@@ -1,0 +1,438 @@
+html,
+body {
+    min-width: 370px;
+    margin: 0;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+/* 媒体查询 */
+
+
+@media screen and (min-width: 480px) {
+    nav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header_top {
+        display: none !important;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .picture-1 {
+        float: right;
+        margin-top: -23px;
+    }
+    
+    .picture-2 {
+        float: right;
+        margin-top: -17px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .picture-1 {
+        display: none;
+    }
+    
+    .picture-2 {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 480px) {
+    .right-1{
+        border-left: 1px dashed rgb(153, 153, 153);
+    }
+}
+@media screen and (min-width: 500px)and (max-width: 1000px) {
+    .box-3{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box-3{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 1000px)and (min-width: 480px){
+    .color {
+        width: 100%;
+        height: 10px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .color {
+        width: 100%;
+        height: 19px;
+    }
+}
+
+
+
+/*鼠标悬浮控制元素隐藏与显示 - css中鼠标的hover状态*/
+.one:hover .word{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.box-3:hover .people{
+    box-shadow: 2px 2px 10px rgba(8, 1, 3, 0.15);
+}
+.box-4:hover .character-2{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.box-4:hover .character-3{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.box-5:hover .list{
+    border-bottom: 1px solid rgb(41, 176, 120);
+}
+
+/* 头部 */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.top {
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+.left {
+    color: rgb(41, 176, 120);
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.right {
+    margin-top: 5px;
+}
+
+span {
+    background-image: url(../home/image-1.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid rgb(41, 176, 120);
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.icon_1 {
+    float: right;
+    background-position: -15px -178px;
+    margin-right: -7px;
+
+}
+
+.icon_2 {
+    float: right;
+    background-position: -15px -70px;
+    margin-right: -8px;
+}
+
+.icon_3 {
+    float: right;
+    background-position: -15px -124px;
+    margin-right: -7px;
+}
+
+.navbar {
+    background-color: rgb(41, 176, 120);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item {
+    text-align: center;
+}
+.navbar-toggler {
+    padding: .10rem .30rem; 
+   
+}
+
+
+.word-1 {
+    font-size: 8px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+
+.header_top {
+    background-color: rgb(41, 176, 120);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.word {
+    font-size: 8px;
+    display: inline-block;
+    color: white;
+    padding: 24px 15px;
+    border-bottom: 2px solid rgba(255,255,255,0);
+}
+
+.one {
+    display: inline-block;
+
+}
+
+
+
+/*中间*/
+main {
+    margin-top: 110px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    background: transparent;
+    border: transparent;
+}
+
+.box-1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.col {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.study{
+    margin-left: 23px;
+}
+.box-2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.word-4 {
+    font-weight: bold;
+    margin: 16px;
+}
+
+.word-5 {
+    font-size: 8px;
+    color: rgb(153, 153, 153);
+}
+
+.icon-4 {
+    float: left;
+    background-position: -15px -15px;
+}
+
+.right-1 {
+    text-align: left;
+    padding: 30px;
+}
+
+.word-6 {
+    font-weight: bold;
+    font-size: 8px;
+    color: rgb(41, 176, 120);
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -45px;
+    margin-top: 100px;
+}
+
+.circle-1 {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 60px;
+
+}
+
+.word-7 {
+    font-weight: bold;
+    color: rgb(41, 176, 120);
+}
+
+.word-8 {
+    font-size: 8px;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+    text-align: left;
+    margin-top: 26px;
+    width: 90%;
+
+}
+
+.word-8-1 {
+    font-size: 8px;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+    text-align: left;
+    margin-top: 26px;
+    width: 63%;
+
+}
+
+.picture-1 {
+    float: right;
+    margin-top: -27px;
+}
+
+.picture-2 {
+    float: right;
+    margin-top: -24px;
+}
+
+.first {
+    box-shadow: 2px 2px 10px rgba(8, 1, 3, 0.15);
+    margin-bottom: 57px;
+}
+
+.picture-3 {
+    margin: 20px 0;
+}
+
+.word-9 {
+    font-size: 8px;
+    color: rgb(153, 153, 153);
+    padding: 0 20px 20px;
+
+}
+
+.carousel-indicators li {
+    background-color: rgb(41, 176, 120);
+}
+
+
+.box{
+    width: 100%;
+    text-align: center;
+}
+
+.box-3{
+    display: inline-block;
+}
+.people{
+    height: 120px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.both{
+    display: inline-block;
+    margin: 0 20px;
+  
+}
+.list{
+    font-size: 8px;
+    color: rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(41, 176, 120,0);
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+
+
+/*底部*/
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 176, 120);
+    z-index: 10;
+}
+.box-4{
+    display: inline-block;
+}
+.character{
+    margin: 20px ;
+}
+
+.character-father{
+    text-align: center;
+    margin: 20px;
+}
+
+.character-1{
+    font-size: 8px;
+    color: white; 
+} 
+
+.character-2{
+    font-size: 8px;
+    color: white;
+    margin-top: 34px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.character-2{
+    font-size: 8px;
+    color: white;
+    margin-top: 34px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+
+.character-3{
+    font-size: 8px;
+    color: white;
+    margin-right: 10px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.character-4{
+    font-size: 8px;
+    color: white; 
+    margin-left: 4px;
+    margin-bottom: 7px;
+} 
+
+.character-5{
+    font-size: 8px;
+    color: white; 
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+
