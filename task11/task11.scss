@@ -1,0 +1,120 @@
+body {
+    min-width: 370px;
+    margin: 0;
+    background: {
+        color: rgb(249, 249, 249);
+    }
+}
+
+/*按钮*/
+button {
+    background: {
+        color: transparent;
+    }
+    border: transparent;
+}
+
+/*文字*/
+p {
+    margin: 0;
+}
+
+/*变量*/ 
+$color-1: rgb(225, 229, 231);
+$color-2: white;
+$color-3: rgb(95,192,205);
+
+/*头部*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    background: {
+        color:  $color-3;
+    } 
+}
+
+header{
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin: 9px 16px;
+    }
+}
+
+.word-1 {
+    font-size: 16px;
+    color: $color-2;
+}
+
+.word-2 {
+    font-size: 18px;
+    color: $color-2;
+}
+
+/*中间*/
+main {
+    margin-top: 54px;
+}
+
+.frame{
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: $color-1;
+}
+
+.phone {
+    display: inline-flex;
+    height: 55px;
+    width: 100%;
+    background: {
+        color:  $color-2;
+    }
+}
+
+.picture {
+    padding-right: 14px;
+    margin: 14px;
+    border-right: 1px solid $color-1;
+}
+
+.lock {
+    @extend .phone;
+    margin-top: 10px;
+}
+/*底部*/  
+footer {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 35px;
+    text-align: center;
+    background: {
+        color:  $color-3;
+    }
+    box-shadow:0 0 10px  $color-3;
+}
+
+.word-3 {
+    @extend .word-2;
+    width: 100%;
+    height: 50px;
+    letter-spacing: 10px;
+    text-indent: 10px
+}
+
+.word-4 {
+    float: right;
+    font-size: 16px;
+    color: $color-3;
+    margin-top: 15px;
+  
+}
+
+
