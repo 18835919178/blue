@@ -1,0 +1,213 @@
+body {
+    min-height: 370px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*变量*/
+$color-1: rgb(95, 192, 205);
+$color-2: rgb(225, 229, 231);
+$color-3: rgb(153, 153, 153);
+$color-4: white;
+$color-5: rgb(249, 249, 249);
+
+
+/*雪碧图*/
+span {
+    background: url(../two/picture-2/image.png);
+    height: 30px;
+    width: 30px;
+
+}
+
+.icon-1 {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    background-position: -13px -301px;
+
+}
+
+.icon-2 {
+    width: auto;
+    position: absolute;
+    left: 70px;
+    background-position: -13px -176px;
+
+}
+
+.icon-3 {
+    position: absolute;
+    top: 3px;
+    background-position: -14px -114px;
+    margin-left: 9px;
+
+}
+
+.icon-4 {
+    width: auto;
+    position: absolute;
+    right: 70px;
+    background-position: -13px -238px;
+}
+
+.icon-5 {
+    position: absolute;
+    background-position: -13px -16px;
+}
+
+.icon-6 {
+    position: absolute;
+    background-position: -13px -69px;
+}
+
+
+
+/*头部*/
+header {
+    position: fixed;
+    top: 0;
+    height: 44px;
+    width: 100%;
+    background-color: $color-1;
+    text-align: center;
+    z-index: 10;
+}
+
+button{
+    border: transparent;
+}
+.word {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 75px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.word-1 {
+    @extend .word;
+    color: $color-4;
+    background-color: rgb(85, 168, 179);
+}
+
+.word-2 {
+    @extend .word;
+    color: $color-1;
+    background-color: $color-4;
+    margin-left: -10px;
+}
+
+
+/*中间*/
+main {
+    margin-top: 46px;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid $color-2;
+}
+
+select {
+    width: 33.3%;
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+    color: $color-3;
+    text-align: center;
+    padding: 3px 10px;
+
+}
+
+
+.center {
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-image: linear-gradient($color-4, $color-3,$color-4)1;
+}
+
+.one-father {
+    padding: 15px;
+    border-bottom: 1px solid $color-2;
+}
+
+.word-5 {
+    font-size: 14px;
+    color: $color-3;
+    margin-left: 30px;
+}
+
+.word-6 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+.word-7 {
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(230, 59, 14);
+    margin-right: 36px;
+}
+
+.word-8 {
+    font-size: 13px;
+    color: $color-3;
+    margin-left: 30px;
+}
+
+.picture {
+    float: right;
+    margin-left: -11px;
+    margin-top: 2px;
+}
+
+.one {
+    margin: 6px 0;
+}
+
+.white {
+    height: 47px;
+    width: 100%;
+}
+
+/*底部*/
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 47px;
+    width: 100%;
+    background-color: $color-5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.word-3 {
+    font-size: 10px;
+    color: $color-1;
+    margin-top: 29px;
+    margin-left: 6px;
+}
+
+.circle {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: $color-1;
+}
+
+.word-4 {
+    @extend .word-3;
+    color: $color-3;
+}
