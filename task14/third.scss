@@ -1,0 +1,155 @@
+@import "both.scss";
+
+// hover效果
+.menu:hover .word-7 {
+    color: $white;
+    background-color: $green;
+}
+.father:hover .cover {
+    display: block;
+}
+// 雪碧图
+span {
+    background: url(../task14/picture-2/image-1.png);
+    width: 30px;
+    height: 30px;
+}
+.icon-1 {
+    position: absolute;
+    background-position: -19px -180px;
+}
+.icon-2 {
+    position: absolute;
+    background-position: -19px -72px;
+}
+.icon-3 {
+    position: absolute;
+    background-position: -19px -126px;
+}
+
+// 中间
+main {
+    margin-top: 90px;
+}
+a {
+    text-decoration: none;
+}
+.box {
+    margin-top: 120px;
+    padding-top: 120px;
+}
+.image {
+    width: 100%;
+}
+
+.main {
+    padding: 20px 0;
+    border-bottom: 1px solid $grey-1;
+}
+.word-4 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.word-5 {
+    @extend .word-4;
+    color: $green;
+}
+
+.list {
+    padding: 13px 0;
+    border-bottom: 1px solid rgba($grey-1, 0.5);
+}
+.menu {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 23px;
+}
+.word-6 {
+    display: inline-block;
+    color: $grey;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.word-7 {
+    color: $black;
+}
+
+table {
+    background-color: $white;
+    border: 1px solid $grey-1;
+    margin-top: 40px;
+}
+
+.word-8 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.picture-2 {
+    float: left;
+    margin-right: 10px;
+}
+
+.box-1 {
+    border: 1px solid $grey-1;
+    padding: 10px;
+}
+.picture-3 {
+    vertical-align: middle;
+}
+.word-9 {
+    display: inline-block;
+    @extend .word-7;
+    vertical-align: middle;
+}
+.word-10 {
+    display: inline-block;
+    color: $red;
+    vertical-align: middle;
+}
+.word-11 {
+    display: inline-block;
+}
+.word-12 {
+    float: right;
+}
+.word-13 {
+    color: $grey;
+    text-align: center;
+}
+
+.word-14 {
+    display: inline-block;
+    color: $grey;
+}
+.blod {
+    font-weight: bold;
+}
+
+.cover {
+    position: absolute;
+    top: 40px;
+    width: 92%;
+    height: 91%;
+    color: $white;
+    font-weight: bold;
+    background-color: rgba($black, 0.5);
+    display: none;
+
+}
+.word-15 {
+    font-size: 15px;
+    padding: 60px 0 30px;
+    text-align: center;
+}
+.word-16 {
+    text-indent: 2em;
+    font-size: 15px;
+    padding: 0 30px;
+}
+
+.white {
+    height: 50px;
+    width: 100%;
+}
