@@ -1,0 +1,164 @@
+// 变量
+$blue-1: rgb(41, 189, 224);
+$blue-2: rgb(36, 167, 198);
+$orange: rgb(251, 180, 53);
+$red-1: rgb(246, 111, 111);
+$red-2: rgb(180, 6, 6);
+$white: rgb(255, 255, 255);
+$grey-1: rgb(245, 245, 245);
+$grey-2: rgb(201, 201, 201);
+body {
+    margin: 0;
+    min-width: 370px;
+    background-color: $grey-1;
+}
+p {
+    margin: 0;
+}
+// 头部
+header {
+    position: fixed;
+    top: 0;
+    height: 44px;
+    width: 100%;
+    font-size: 17px;
+    color: $white;
+    background-color: $blue-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.img1 {
+    margin-left: 12px;
+}
+
+.img2 {
+    margin-right: 12px;
+}
+
+// 中间
+main {
+    width: 380px;
+    margin: 66px auto 0;
+    padding-bottom: 60px;
+}
+
+.m-ben {
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid $grey-2;
+}
+.benT {
+    text-align: center;
+    border-bottom: 1px solid $grey-2;
+}
+
+button {
+    border: none;
+}
+h1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: $blue-1;
+}
+
+.benR {
+    position: relative;
+    padding: 20px;
+    margin-left: 25px;
+    padding-left: 25px;
+    border-left: 1px solid $grey-2;
+}
+.benL {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    height: 100px;
+}
+.kill,
+.Wling,
+.Fyan,
+.Tpiao {
+    position: relative;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    color: $white;
+    background-color: $blue-2;
+    border: none;
+}
+
+h5 {
+    margin: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+.left::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    border-top: 8px solid $white;
+    border-right: 10px solid $blue-2;
+    border-bottom: 8px solid $white;
+}
+.step-chance::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    border-top: 8px solid $white;
+    border-right: 10px solid $grey-2;
+    border-bottom: 8px solid $white;
+}
+.moon::before {
+    position: absolute;
+    left: -17px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 1px solid $grey-2;
+    border-radius: 50%;
+    background-color: $white;
+    background-image: url(../picture/moon.png);
+}
+.sun::before {
+    position: absolute;
+    left: -17px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border: 1px solid $grey-2;
+    border-radius: 50%;
+    background-color: $white;
+    background-image: url(../picture/sun.png);
+}
+
+
+// 底部
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    background-color: rgba($color: rgb(41, 189, 224), $alpha: 0.5);
+}
+
+#btnle,
+#btnrig {
+    font-size: 20px;
+    color: $white;
+    width: 136px;
+    height: 43px;
+    border-radius: 5px;
+}
+
+#btnle {
+    background-color: $red-1;
+}
+#btnrig {
+    background-color: $orange;
+}
