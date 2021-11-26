@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  min-width: 370px;
+  background-color: whitesmoke;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 44px;
+  width: 100%;
+  font-size: 17px;
+  color: white;
+  background-color: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.img1 {
+  margin-left: 12px;
+}
+
+.img2 {
+  margin-right: 12px;
+}
+
+main {
+  width: 380px;
+  margin: 66px auto 0;
+  padding-bottom: 60px;
+}
+
+.m-ben {
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid #c9c9c9;
+}
+
+.benT {
+  text-align: center;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+button {
+  border: none;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #29bde0;
+}
+
+.benR {
+  position: relative;
+  padding: 20px;
+  margin-left: 25px;
+  padding-left: 25px;
+  border-left: 1px solid #c9c9c9;
+}
+
+.benL {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  height: 100px;
+}
+
+.kill,
+.Wling,
+.Fyan,
+.Tpiao {
+  position: relative;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px;
+  color: white;
+  background-color: #24a7c6;
+  border: none;
+}
+
+h5 {
+  margin: 5px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.left::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  border-top: 8px solid white;
+  border-right: 10px solid #24a7c6;
+  border-bottom: 8px solid white;
+}
+
+.step-chance::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  border-top: 8px solid white;
+  border-right: 10px solid #c9c9c9;
+  border-bottom: 8px solid white;
+}
+
+.moon::before {
+  position: absolute;
+  left: -17px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(../picture/moon.png);
+}
+
+.sun::before {
+  position: absolute;
+  left: -17px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(../picture/sun.png);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(41, 189, 224, 0.5);
+}
+
+#btnle,
+#btnrig {
+  font-size: 20px;
+  color: white;
+  width: 136px;
+  height: 43px;
+  border-radius: 5px;
+}
+
+#btnle {
+  background-color: #f66f6f;
+}
+
+#btnrig {
+  background-color: #fbb435;
+}
