@@ -1,0 +1,114 @@
+// 变量
+$blue: rgb(41, 189, 224);
+$yellow: rgb(255, 237, 197);
+$orange-1: rgb(251, 180, 53);
+$orange-2: rgb(252, 160, 0);
+$red: rgb(245, 107, 129);
+$white: rgb(255, 255, 255);
+
+body {
+    margin: 0;
+    background-color: $blue;
+    min-width: 370px;
+}
+p {
+    margin: 0;
+}
+// 头部
+header {
+    position: fixed;
+    top: 0;
+    height: 44px;
+    width: 100%;
+    font-size: 17px;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.img1 {
+    margin-left: 12px;
+}
+
+.img2 {
+    margin-right: 12px;
+}
+
+// 中间
+
+.circle {
+    position: absolute;
+    top: -19px;
+    left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    color: $red;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: $white;
+    border: 2px solid $yellow;
+    text-align: center;
+}
+.main {
+    position: relative;
+    width: 226px;
+    background-color: $yellow;
+    margin: 88px auto 0;
+    border: 3px solid $white;
+    text-align: center;
+}
+
+.orange {
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    background-color: $orange-1;
+    margin: 29px auto 19px;
+    text-align: center;
+}
+.img3 {
+    margin: 95px 0 85px;
+}
+
+.img4 {
+    margin-top: 14px;
+}
+
+.word-1 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $blue;
+}
+.word-2 {
+    @extend.word-1;
+    color: $red;
+    margin: 9px 0 16px;
+}
+
+.word-3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: $orange-2;
+    text-align-last: left;
+    padding: 17px 14px 42px;
+    border-top: 2px solid $white;
+}
+// 按钮
+button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    background-color: $orange-1;
+    border: none;
+    margin: 62px auto;
+    font-size: 24px;
+    color: $white;
+}
